@@ -6,6 +6,14 @@ class App():
 
     def __init__(self):
 
+        def alarmSet():
+            global alarmTime
+            global message
+            message = messageEntry.get()
+            tk.messagebox.showinfo("Set", "Alarm set for " + alarmTime)
+
+
+
         def getAlarmString():
             hour = hourSpin.get()
             minute = minuteSpin.get()
