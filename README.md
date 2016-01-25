@@ -1,6 +1,6 @@
 # Alarm Clock App
 
-##### Application to solve all conceivable problems, 1/25/15
+##### Simple alarm clock app, 1/25/15
 
 #### By **Matt Carlson**
 
