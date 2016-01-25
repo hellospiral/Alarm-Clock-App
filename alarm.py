@@ -72,4 +72,12 @@ class App():
         self.label.configure(text=now)
         self.root.after(1000, self.update_clock)
 
+        if alarmTime:
+            if (alarmTime == now):
+                tk.messagebox.showinfo("Alarm!", message)
+            else:
+                pass
+        else:
+            pass
+
 app=App()
