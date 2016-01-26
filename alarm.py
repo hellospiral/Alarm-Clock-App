@@ -5,7 +5,9 @@ from tkinter import*
 class App():
 
     def __init__(self):
-
+        
+        
+        # Function to inform user that alarm has been set
         def alarmSet():
             global alarmTime
             global message
@@ -13,7 +15,7 @@ class App():
             tk.messagebox.showinfo("Set", "Alarm set for " + alarmTime)
 
 
-
+        # Function to get the time for the alarm to go off
         def getAlarmString():
             hour = hourSpin.get()
             minute = minuteSpin.get()
@@ -25,7 +27,7 @@ class App():
             alarmTime = (hour + ":" + minute + ":00")
             alarmSet()
 
-
+        # Elements of the GUI
         self.root = tk.Tk()
         currentTime = tk.Label(text = "Current time:", font = ("Helvetica", 24))
         currentTime.grid(row = 1, column = 2, columnspan = 2)
@@ -67,11 +69,13 @@ class App():
         
         self.root.mainloop()
 
+    # Function to update the time of the clock once per second.
     def update_clock(self):
         now = time.strftime("%H:%M:%S")
         self.label.configure(text=now)
         self.root.after(1000, self.update_clock)
-
+        
+        # Branch to make the alarm message appear when it's the right time.
         if alarmTime:
             if (alarmTime == now):
                 tk.messagebox.showinfo("Alarm!", message)
