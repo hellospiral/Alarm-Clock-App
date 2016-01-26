@@ -1,6 +1,6 @@
 # Alarm Clock App
 
-##### Simple alarm clock app, 1/25/15
+##### Simple Python alarm clock app, with a GUI in Tkinter, 1/25/15
 
 #### By **Matt Carlson**
 
