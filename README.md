@@ -25,8 +25,6 @@ This app is a simple alarm clock that displays the current time, allows the user
 
 ### Legal
 
-
-
 Copyright (c) 2016 **Matt Carlson**
 
 This software is licensed under the MIT license.
