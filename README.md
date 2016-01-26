@@ -1,6 +1,6 @@
 # Alarm Clock App
 
-##### Simple Python alarm clock app, with a GUI in Tkinter, 1/25/15
+##### Python alarm clock app, with a GUI in Tkinter, 1/25/16
 
 #### By **Matt Carlson**
 
@@ -27,7 +27,7 @@ This app is a simple alarm clock that displays the current time, allows the user
 
 
 
-Copyright (c) 2015 **Matt Carlson**
+Copyright (c) 2016 **Matt Carlson**
 
 This software is licensed under the MIT license.
 
